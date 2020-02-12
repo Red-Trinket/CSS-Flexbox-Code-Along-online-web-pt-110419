@@ -8,6 +8,7 @@ header {
   background-color: #FBFFF4;
   height: 100%;
   width: 100%;
+  flex-shrink: 3;
 }
 
 main {
@@ -16,6 +17,9 @@ main {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
